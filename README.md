@@ -1,29 +1,43 @@
-# Introduction to CSS
+/* Global styling for the body */
+body {
+    font-family: 'Arial', sans-serif; /* Set font */
+    background-color: #f4f4f4; /* Light grey background */
+    color: #333; /* Dark text color */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
 
-## Objectives
-Link an external CSS file to an HTML document.
-Apply basic styling using selectors.
-Use colors, fonts, and spacing effectively.
+/* Styling for the main header */
+#main-header {
+    background-color: #333; /* Dark background */
+    color: #fff; /* White text */
+    padding: 20px;
+    text-align: center; /* Center the header text */
+}
 
-## Instructions
+/* Styling for paragraphs with class "text-center" */
+.text-center {
+    text-align: center;
+}
 
-Create a style.css file.
-Apply CSS to a HTML page.
-Style elements using:
-Classes and IDs.
-Color and typography.
-Margins, paddings, and borders.
+/* Styling for images with class "img-styled" */
+.img-styled {
+    width: 80%; /* Set width of images */
+    max-width: 500px; /* Maximum width */
+    border: 5px solid #ddd; /* Light border around images */
+    border-radius: 8px; /* Rounded corners */
+    padding: 10px; /* Padding inside the border */
+    display: block;
+    margin: 20px auto; /* Center image */
+}
 
->[!NOTE]
->  - Include at least:
->  - Use of 3 selectors
->  - Style an image
->  - Margin, Padding & Borders
->  - Different font
+/* Styling for links */
+a {
+    color: #007bff; /* Blue color for links */
+    text-decoration: none; /* Remove underline */
+}
 
-# Tasks
- - Link an external CSS file.
- - Apply at least 3 different selectors.
- - Improve readability and aesthetics.
-
-Happy Coding! 💻✨
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
